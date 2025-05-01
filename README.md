@@ -10,17 +10,7 @@ Ce repository regroupe les exercices pratiques, manifestes YAML, scripts d'autom
 - Gérer les ressources utilisateurs, projets, quotas et policies.
 - Automatiser les déploiements via des manifestes et scripts.
 
-## Arborescence du dépôt
-
-```bash
-.
-├── labs/                 # Exercices pratiques organisés par module (ex: deploying_apps, configuring_routes, etc.)
-├── manifests/            # Ressources Kubernetes/OpenShift en YAML (Deployment, Route, PVC, etc.)
-├── scripts/              # Scripts Bash ou Ansible utilisés pour automatiser certaines tâches
-├── notes.md              # Notes techniques et raccourcis de commandes
-└── README.md             # Présentation du projet
-
-Pré-requis
+- Pré-requis
 Environnement de lab basé sur CodeReady Containers (CRC) ou un cluster OpenShift provisionné sur un hyperviseur (libvirt, VMware…)
 
 Outils installés :
@@ -32,6 +22,17 @@ podman ou docker (pour builder des images si nécessaire)
 kubectl (optionnel)
 
 ansible (si automation complémentaire)
+
+## Arborescence du dépôt
+
+```bash
+.
+├── labs/                 # Exercices pratiques organisés par module (ex: deploying_apps, configuring_routes, etc.)
+├── manifests/            # Ressources Kubernetes/OpenShift en YAML (Deployment, Route, PVC, etc.)
+├── scripts/              # Scripts Bash ou Ansible utilisés pour automatiser certaines tâches
+├── notes.md              # Notes techniques et raccourcis de commandes
+└── README.md             # Présentation du projet
+
 
 Commandes Références
 
